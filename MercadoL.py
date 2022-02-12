@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 from http.client import PRECONDITION_FAILED
 from urllib import response
 from bs4 import BeautifulSoup
@@ -9,6 +8,7 @@ prettify() == vai indentar o código para uma melhor anásile
 os codigos contidos dentro dessa div
 print({nome}.prettify()) --> vai mandar o arquivo totalmente identado...
 
+Proximo documento utiliza selenium
 
 '''
 

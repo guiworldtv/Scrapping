@@ -1,6 +1,6 @@
 import requests
+import selenium
 
 
 
-print("Coletado pelo git")
-idade = int(input("Digite sua idade:"))
+print("teste")
