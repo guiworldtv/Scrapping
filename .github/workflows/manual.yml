@@ -17,10 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2.4.0
       
-
+      - name: Install dependencies
+        run: pip install -r requirements.txt
         
       - name: Fetch latest data
-        run: python scrap.py
+        run: python main.py
       
       - name: Commit data
         run: |-
