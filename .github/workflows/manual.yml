@@ -20,7 +20,7 @@ jobs:
 
         
       - name: Fetch latest data
-        run: python MercadoL.py
+        run: python scrap.py
       
       - name: Commit data
         run: |-
